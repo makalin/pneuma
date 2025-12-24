@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-selfcheck.json
+pip-log.txt
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.idea/
+.vscode/
+
+# Pneuma specific
+corpus/raw_audio/
+corpus/processed/
+corpus/checkpoints/

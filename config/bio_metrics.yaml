@@ -1,0 +1,12 @@
+# config/bio_metrics.yaml
+# Sensitivity settings for Pneuma's "senses"
+
+sample_rate: 44100
+chunk_size: 1024  # Number of audio frames per buffer
+
+# How quickly Pneuma reacts. Lower is faster.
+# This is the sleep time in the main loop.
+reaction_time: 0.1 # in seconds
+
+# The size of the hidden state in the short-term memory LSTM
+memory_hidden_size: 64

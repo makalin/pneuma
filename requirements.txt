@@ -1,0 +1,8 @@
+pyaudio
+librosa
+torch
+pyyaml
+numpy<2.0
+ruff
+rich
+pytest

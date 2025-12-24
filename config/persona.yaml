@@ -1,0 +1,20 @@
+# config/persona.yaml
+# Personality definitions for Pneuma
+
+neutral:
+  cooperativeness: 0.5 # 0.0 = disruptive, 1.0 = harmonious
+  temperament: 0.5     # 0.0 = calm, 1.0 = volatile
+
+heckler:
+  cooperativeness: 0.1
+  temperament: 0.9
+  # This persona is more likely to get annoyed and disrupt.
+
+shadow:
+  cooperativeness: 0.7
+  temperament: 0.2
+  # This persona is more likely to be thoughtful and harmonious.
+
+melancholic_shadow:
+  cooperativeness: 0.6
+  temperament: 0.3
